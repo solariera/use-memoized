@@ -1,6 +1,6 @@
 {
   "name": "@solariera/use-memoized",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Memoize hook for object",
   "author": "Solariera <always@solariera.com> (https://github.com/solariera)",
   "license": "MIT",
