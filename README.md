@@ -1,6 +1,5 @@
 # useMemoized / React hook
 
-
 [![npm](https://img.shields.io/npm/v/@solariera/use-memoized)](https://www.npmjs.com/package/@solariera/use-memoized)
 [![npm](https://img.shields.io/npm/dw/@solariera/use-memoized)](https://www.npmjs.com/package/@solariera/use-memoized)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@solariera/use-memoized)](https://bundlephobia.com/result?p=@solariera/use-memoized)
