@@ -1,6 +1,8 @@
-Podfile.lock
+coverage/
 dist/
+Podfile.lock
 *.code-workspace
+yarn.lock
 
 # OSX
 #
