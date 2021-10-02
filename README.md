@@ -29,5 +29,5 @@ import { useObjectMemo, useMemoized } from '@solariera/use-memoized';
 const frameProps: FrameProps = useObjectMemo(() => frameProps, []);
 
 /** Simple usage when you know object type */
-const buttonProps: FrameProps = useMemoizedObject({ ...frameProps, onPress });
+const buttonProps: FrameProps = useMemoized({ ...frameProps, onPress });
 ```

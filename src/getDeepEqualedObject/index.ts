@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import isDeepEqual from 'fast-deep-equal/react';
+import equal from 'fast-deep-equal/react';
 
 /**
  * getDeepEqualedObject
@@ -16,7 +16,7 @@ export const getDeepEqualedObject = <T>(obj: T): T => {
   const ref = useRef(obj);
 
   // deep equalチェックして不一致なら引数をそのままカレントに格納する
-  if (!isDeepEqual(ref.current, obj)) ref.current = obj;
+  if (!equal(ref.current, obj)) ref.current = obj;
 
   // 一致している場合はカレントをそのまま返す
   return ref.current;
